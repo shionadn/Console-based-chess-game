@@ -1,6 +1,5 @@
 namespace ConsoleChess
 {
-    // Using X and Y offsets for directions makes sliding loops much easier
     public static class Direction
     {
         public static (int x, int y) N = (0, 1), S = (0, -1), E = (1, 0), W = (-1, 0);
